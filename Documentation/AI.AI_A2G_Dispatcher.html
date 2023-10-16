@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-97385487-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-97385487-1');</script>
+<head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
@@ -4020,6 +4020,7 @@ of the squadron are destroyed. This is to keep consistency of air operations and
             <td class="name w3-half w3-container" style="word-wrap: break-word"><p><a href="##(AI_A2G_DISPATCHER).ClassNameAndID">AI_A2G_DISPATCHER.ClassNameAndID</a></p></td>
             <td class="summary w3-half w3-container" style="word-wrap: break-word">
 <p>The name of the class concatenated with the ID number of the class.</p>
+
 </td>
           </tr>
           <tr class="w3-border">
@@ -4671,6 +4672,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
             <td class="name w3-half w3-container" style="word-wrap: break-word"><p><a href="##(AI_A2G_DISPATCHER.DefenseQueueItem).SquadronName">AI_A2G_DISPATCHER.DefenseQueueItem.SquadronName</a></p></td>
             <td class="summary w3-half w3-container" style="word-wrap: break-word">
 <p>The name of the squadron.</p>
+
 </td>
           </tr>
         </table>
@@ -4714,6 +4716,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
             <td class="name w3-half w3-container" style="word-wrap: break-word"><p><a href="##(AI_A2G_DISPATCHER.Squadron).Overhead">AI_A2G_DISPATCHER.Squadron.Overhead</a></p></td>
             <td class="summary w3-half w3-container" style="word-wrap: break-word">
 <p>The overhead for the squadron.</p>
+
 </td>
           </tr>
           <tr class="w3-border">
@@ -4763,6 +4766,18 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
     
 <p> The Defender Default Settings over all Squadrons.</p>
 
+
+</div>
+
+</div>   
+<div>   
+        <div class="w3-card-2 w3-padding-small w3-margin-top">
+
+    #number
+<a id="#(AI_A2G_DISPATCHER).DefenderPatrolIndex" ><strong>AI_A2G_DISPATCHER.DefenderPatrolIndex</strong></a>
+    
+
+
 </div>
 
 </div>   
@@ -4788,6 +4803,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
     
 <p> The Defender Squadrons.</p>
 
+
 </div>
 
 </div>   
@@ -4801,6 +4817,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
 
     
 <p> The Defenders Tasks.</p>
+
 
 </div>
 
@@ -5029,6 +5046,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
               
 <p>The coordinate to be defended by A2G defenses.</p>
 
+
           </div>
         </div>
 </div>
@@ -5074,6 +5092,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
           <div class="w3-half">
               
 <p>Number of resources to add.</p>
+
 
           </div>
         </div>
@@ -5129,6 +5148,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
         
 <p>DefenderSquadron</p>
 
+
       </div>
     </div>
 </div>
@@ -5182,6 +5202,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
       <div class="w3-half">
         
 <p>DefenderSquadron</p>
+
 
       </div>
     </div>
@@ -5463,6 +5484,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
           
 <p>If there are no targets to be set.</p>
 
+
         </div>
     </div>
 </div>
@@ -5514,6 +5536,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
         <div class="w3-half">
           
 <p>If there are no targets to be set.</p>
+
 
         </div>
     </div>
@@ -5567,6 +5590,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
           
 <p>If there are no targets to be set.</p>
 
+
         </div>
     </div>
 </div>
@@ -5609,7 +5633,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
   if LandingMethod == AI_A2G_Dispatcher.Landing.NearAirbase then
    ...
   end
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -5651,7 +5675,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
   if TakeoffMethod == , AI_A2G_Dispatcher.Takeoff.InAir then
     ...
   end
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -5691,6 +5715,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
       <div class="w3-half">
         
 <p>A list of the defender friendlies nearby, sorted by distance.</p>
+
 
       </div>
     </div>
@@ -5874,6 +5899,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
         
 <p>The amount of friendlies and a text string explaining which friendlies of which type.</p>
 
+
       </div>
     </div>
 </div>
@@ -5960,6 +5986,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
       <div class="w3-half">
         
 <p>The amount of friendlies and a text string explaining which friendlies of which type.</p>
+
 
       </div>
     </div>
@@ -6088,7 +6115,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
   if LandingMethod == AI_A2G_Dispatcher.Landing.NearAirbase then
    ...
   end
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -6226,7 +6253,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
   if TakeoffMethod == , AI_A2G_Dispatcher.Takeoff.InAir then
     ...
   end
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -6316,7 +6343,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
     <pre class="example"><code>
        -- Set the Squadron visible before startup of dispatcher.
        local IsVisible = A2GDispatcher:IsSquadronVisible( "Mineralnye" )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -6378,6 +6405,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>The index of the detected item.</p>
+
 
           </div>
         </div>
@@ -6444,7 +6472,7 @@ The Detection object is polymorphic, depending on the type of detection object c
 
   -- Now Setup the A2G dispatcher, and initialize it using the Detection object.
   A2GDispatcher = AI_A2G_DISPATCHER:New( Detection )  --   
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -7104,6 +7132,7 @@ The Detection object is polymorphic, depending on the type of detection object c
         
 <p>Return true if you want the task assigning to continue... false will cancel the loop.</p>
 
+
       </div>
     </div>
 </div>
@@ -7147,6 +7176,7 @@ The Detection object is polymorphic, depending on the type of detection object c
       <div class="w3-half">
         
 <p>Number of airframes available or nil if the squadron does not exist</p>
+
 
       </div>
     </div>
@@ -7233,6 +7263,7 @@ The Detection object is polymorphic, depending on the type of detection object c
           <div class="w3-half">
               
 <p>Number of resources to remove.</p>
+
 
           </div>
         </div>
@@ -7606,6 +7637,7 @@ The Detection object is polymorphic, depending on the type of detection object c
               
 <p>The squadron name.</p>
 
+
           </div>
         </div>
 </div>
@@ -7673,7 +7705,7 @@ or
   local BorderZone1 = ZONE_POLYGON( "CCCP Border1", GROUP:FindByName( "CCCP Border1" ) ) -- The GROUP object is a late activate helicopter unit.
   local BorderZone2 = ZONE_POLYGON( "CCCP Border2", GROUP:FindByName( "CCCP Border2" ) ) -- The GROUP object is a late activate helicopter unit.
   A2GDispatcher:SetBorderZone( { BorderZone1, BorderZone2 } )
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -7729,7 +7761,7 @@ or
   
   -- Now Setup the default damage threshold.
   A2GDispatcher:SetDefaultDamageThreshold( 0.90 ) -- Go RTB when the aircraft is 90% damaged.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -7785,7 +7817,7 @@ or
   
   -- Now Setup the default Patrol limit.
   A2GDispatcher:SetDefaultEngageLimit( 2 ) -- Maximum 2 engagements with the enemy per squadron.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -7841,7 +7873,7 @@ or
   
   -- Now Setup the default fuel threshold.
   A2GDispatcher:SetDefaultFuelThreshold( 0.30 ) -- Go RTB when only 30% of fuel remaining in the tank.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -8204,7 +8236,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
   
   -- Now Setup the default Patrol limit.
   A2GDispatcher:SetDefaultPatrolLimit( 2 ) -- Maximum 2 Patrol per squadron.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -8273,7 +8305,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
   
   -- Now Setup the default Patrol time interval.
   A2GDispatcher:SetDefaultPatrolTimeInterval( 300, 1200 ) -- Between 300 and 1200 seconds.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -8315,6 +8347,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       </div>
       <div class="w3-half">
         
+
 
 
       </div>
@@ -8366,6 +8399,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 
 
+
       </div>
     </div>
       <h2><strong>Usage:</strong></h2>
@@ -8403,6 +8437,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       </div>
       <div class="w3-half">
         
+
 
 
       </div>
@@ -8444,6 +8479,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 
 
+
       </div>
     </div>
       <h2><strong>Usage:</strong></h2>
@@ -8481,6 +8517,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       </div>
       <div class="w3-half">
         
+
 
 
       </div>
@@ -8534,6 +8571,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       </div>
       <div class="w3-half">
         
+
 
 
       </div>
@@ -8600,7 +8638,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
   A2GDispatcher:SetDefaultFuelThreshold( 0.30 ) -- Go RTB when only 30% of fuel remaining in the tank.
   
   -- Now Setup the default tanker.
-  A2GDispatcher:SetDefaultTanker( "Tanker" ) -- The group name of the tanker is "Tanker" in the Mission Editor.</code></pre>
+  A2GDispatcher:SetDefaultTanker( "Tanker" ) -- The group name of the tanker is "Tanker" in the Mission Editor.</code></pre>
 
 </div>
 
@@ -8765,6 +8803,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
 <p>Use the structure AI_A2G_DISPATCHER.DefenseApproach to set the defense approach.
 The default defense approach is AI_A2G_DISPATCHER.DefenseApproach.Random.</p>
 
+
           </div>
         </div>
 </div>
@@ -8797,6 +8836,7 @@ The default defense approach is AI_A2G_DISPATCHER.DefenseApproach.Random.</p>
           <div class="w3-half">
               
 <p>The maximum amount of detected items to be engaged at the same time.</p>
+
 
           </div>
         </div>
@@ -8867,7 +8907,7 @@ when you don't want to let the AI_A2G_DISPATCHER react immediately when a certai
   
   -- Set 200km as the radius to defend.
   A2GDispatcher:SetDefendRadius() -- 200000 is the default value.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -8977,7 +9017,7 @@ when you don't want to let the AI_A2G_DISPATCHER react immediately when a certai
   
   -- Set 100km as the Disengage Radius.
   A2GDispatcher:SetDisengageRadius() -- 300000 is the default value.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -9039,6 +9079,7 @@ when you don't want to let the AI_A2G_DISPATCHER react immediately when a certai
           <div class="w3-half">
               
 <p>Set messages on (true) or off (false)</p>
+
 
           </div>
         </div>
@@ -9482,7 +9523,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        -- Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronBaiEngageLimit( "Mineralnye", 2 ) -- Engage maximum 2 groups with the enemy for BAI defense.
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -9640,7 +9681,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        -- Bai Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronBaiPatrol( "Mineralnye", PatrolZoneEast, 4000, 10000, 500, 600, 800, 900 )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -9837,7 +9878,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        -- Bai Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronBaiPatrol2( "Mineralnye", PatrolZoneEast, 500, 600, 4000, 10000, "BARO", 800, 900, 2000, 3000, "RADIO", )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -9944,7 +9985,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronBaiPatrol( "Mineralnye", PatrolZoneEast, 4000, 10000, 500, 600, 800, 900 )
        A2GDispatcher:SetSquadronBaiPatrolInterval( "Mineralnye", 2, 30, 60, 1 )
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -10234,7 +10275,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        -- Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronCasEngageLimit( "Mineralnye", 2 ) -- Engage maximum 2 groups with the enemy for CAS defense.
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -10392,7 +10433,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        -- Cas Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronCasPatrol( "Mineralnye", PatrolZoneEast, 4000, 10000, 500, 600, 800, 900 )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -10589,7 +10630,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        -- Cas Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronCasPatrol2( "Mineralnye", PatrolZoneEast, 500, 600, 4000, 10000, "BARO", 800, 900, 2000, 3000, "RADIO", )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -10696,7 +10737,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronCasPatrol( "Mineralnye", PatrolZoneEast, 4000, 10000, 500, 600, 800, 900 )
        A2GDispatcher:SetSquadronCasPatrolInterval( "Mineralnye", 2, 30, 60, 1 )
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -10783,7 +10824,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
        -- Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronEngageLimit( "Mineralnye", 2, "SEAD" ) -- Engage maximum 2 groups with the enemy for SEAD defense.
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -10923,7 +10964,7 @@ If you have only one prefix name for a squadron, you don't need to use the <code
   
   -- Now Setup the default fuel threshold.
   A2GDispatcher:SetSquadronRefuelThreshold( "SquadronName", 0.30 ) -- Go RTB when only 30% of fuel remaining in the tank.
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -11438,7 +11479,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronSeadPatrol( "Mineralnye", PatrolZoneEast, 4000, 10000, 500, 600, 800, 900 )
        A2GDispatcher:SetSquadronPatrolInterval( "Mineralnye", 2, 30, 60, 1, "SEAD" )
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -11509,6 +11550,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>The power in Watts of communication.</p>
+
 
           </div>
         </div>
@@ -11800,7 +11842,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
        -- Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronSeadEngageLimit( "Mineralnye", 2 ) -- Engage maximum 2 groups with the enemy for SEAD defense.
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -11958,7 +12000,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
        -- Sead Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronSeadPatrol( "Mineralnye", PatrolZoneEast, 4000, 10000, 500, 600, 800, 900 )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -12155,7 +12197,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
        -- Sead Patrol Squadron execution.
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronSeadPatrol2( "Mineralnye", PatrolZoneEast, 500, 600, 4000, 10000, "BARO", 800, 900, 2000, 3000, "RADIO", )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -12262,7 +12304,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
        PatrolZoneEast = ZONE_POLYGON:New( "Patrol Zone East", GROUP:FindByName( "Patrol Zone East" ) )
        A2GDispatcher:SetSquadronSeadPatrol( "Mineralnye", PatrolZoneEast, 4000, 10000, 500, 600, 800, 900 )
        A2GDispatcher:SetSquadronSeadPatrolInterval( "Mineralnye", 2, 30, 60, 1 )
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -12317,6 +12359,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       </div>
       <div class="w3-half">
         
+
 
 
       </div>
@@ -12382,6 +12425,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 
 
+
       </div>
     </div>
       <h2><strong>Usage:</strong></h2>
@@ -12435,6 +12479,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 
 
+
       </div>
     </div>
       <h2><strong>Usage:</strong></h2>
@@ -12486,6 +12531,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       </div>
       <div class="w3-half">
         
+
 
 
       </div>
@@ -12554,6 +12600,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 
 
+
       </div>
     </div>
       <h2><strong>Usage:</strong></h2>
@@ -12620,6 +12667,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 
 
+
       </div>
     </div>
       <h2><strong>Usage:</strong></h2>
@@ -12681,7 +12729,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
     <pre class="example"><code>
        -- Set the Squadron Takeoff interval every 60 seconds for squadron "SQ50", which is good for a FARP cold start.
        A2GDispatcher:SetSquadronTakeoffInterval( "SQ50", 60 )
-       </code></pre>
+       </code></pre>
 
 </div>
 
@@ -12749,7 +12797,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
   A2GDispatcher:SetSquadronRefuelThreshold( "SquadronName", 0.30 ) -- Go RTB when only 30% of fuel remaining in the tank.
   
   -- Now Setup the squadron tanker.
-  A2GDispatcher:SetSquadronTanker( "SquadronName", "Tanker" ) -- The group name of the tanker is "Tanker" in the Mission Editor.</code></pre>
+  A2GDispatcher:SetSquadronTanker( "SquadronName", "Tanker" ) -- The group name of the tanker is "Tanker" in the Mission Editor.</code></pre>
 
 </div>
 
@@ -12808,7 +12856,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
   
   -- Now Setup the Tactical Display for debug mode.
   A2GDispatcher:SetTacticalDisplay( true )
-  </code></pre>
+  </code></pre>
 
 </div>
 
@@ -12870,6 +12918,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>The index of the detected item.</p>
+
 
           </div>
         </div>
@@ -13285,6 +13334,18 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
     
 <p> The Defender Default Settings over all Squadrons.</p>
 
+
+</div>
+
+</div>   
+<div>   
+        <div class="w3-card-2 w3-padding-small w3-margin-top">
+
+    #number
+<a id="#(AI_A2G_DISPATCHER).DefenderPatrolIndex" ><strong>AI_A2G_DISPATCHER.DefenderPatrolIndex</strong></a>
+    
+
+
 </div>
 
 </div>   
@@ -13310,6 +13371,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
     
 <p> The Defender Squadrons.</p>
 
+
 </div>
 
 </div>   
@@ -13323,6 +13385,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
 
     
 <p> The Defenders Tasks.</p>
+
 
 </div>
 
@@ -13485,6 +13548,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>The command center.</p>
 
+
       </div>
     </div>
 </div>
@@ -13514,6 +13578,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>ReportDisplayTime The display time in seconds when a report needs to be done.</p>
+
 
       </div>
     </div>
@@ -13624,6 +13689,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -13676,6 +13742,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -14209,6 +14276,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -14252,6 +14320,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -14297,6 +14366,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -14340,6 +14410,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -14391,6 +14462,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -14613,6 +14685,18 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
     
 <p> The Defender Default Settings over all Squadrons.</p>
 
+
+</div>
+
+</div>   
+<div>   
+        <div class="w3-card-2 w3-padding-small w3-margin-top">
+
+    #number
+<a id="#(AI_A2G_DISPATCHER).DefenderPatrolIndex" ><strong>AI_A2G_DISPATCHER.DefenderPatrolIndex</strong></a>
+    
+
+
 </div>
 
 </div>   
@@ -14638,6 +14722,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
     
 <p> The Defender Squadrons.</p>
 
+
 </div>
 
 </div>   
@@ -14651,6 +14736,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
 
     
 <p> The Defenders Tasks.</p>
+
 
 </div>
 
@@ -14816,6 +14902,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>The FSM state.</p>
 
+
           </div>
         </div>
 </div>
@@ -14899,6 +14986,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>The SubFSM.</p>
 
+
       </div>
     </div>
 </div>
@@ -14968,6 +15056,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -15065,6 +15154,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -15127,6 +15217,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>The To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -15157,6 +15248,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>Current FSM state.</p>
 
+
       </div>
     </div>
 </div>
@@ -15186,6 +15278,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>End states.</p>
+
 
       </div>
     </div>
@@ -15257,6 +15350,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>Sub processes.</p>
 
+
       </div>
     </div>
 </div>
@@ -15286,6 +15380,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>Scores.</p>
+
 
       </div>
     </div>
@@ -15317,6 +15412,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>A string containing the start state.</p>
 
+
       </div>
     </div>
 </div>
@@ -15346,6 +15442,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>Current FSM state.</p>
+
 
       </div>
     </div>
@@ -15377,6 +15474,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>Sub processes.</p>
 
+
       </div>
     </div>
 </div>
@@ -15406,6 +15504,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>Transitions.</p>
+
 
       </div>
     </div>
@@ -15451,6 +15550,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>If true, FSM is in this state.</p>
 
+
       </div>
     </div>
 </div>
@@ -15483,6 +15583,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>Table of call backs.</p>
+
 
           </div>
         </div>
@@ -15597,6 +15698,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>A string defining the start state.</p>
 
+
           </div>
         </div>
 </div>
@@ -15642,6 +15744,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>Event table.</p>
+
 
           </div>
         </div>
@@ -15725,6 +15828,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>Value.</p>
 
+
       </div>
     </div>
 </div>
@@ -15769,6 +15873,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>Function.</p>
 
+
       </div>
     </div>
 </div>
@@ -15812,6 +15917,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>Function.</p>
+
 
       </div>
     </div>
@@ -15858,6 +15964,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>Event structure.</p>
+
 
           </div>
         </div>
@@ -15916,6 +16023,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>Subs.</p>
 
+
       </div>
     </div>
 </div>
@@ -15960,6 +16068,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>Arguments.</p>
+
 
           </div>
         </div>
@@ -16012,6 +16121,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         <div class="w3-half">
           
 <p>Event name.</p>
+
 
         </div>
     </div>
@@ -16072,6 +16182,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>Name.</p>
 
+
           </div>
         </div>
 </div>
@@ -16124,6 +16235,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           
 <p>To state.</p>
 
+
         </div>
     </div>
 </div>
@@ -16167,6 +16279,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>If true, FSM cannot do the event.</p>
+
 
       </div>
     </div>
@@ -16222,6 +16335,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>If true, FSM is in this state.  </p>
 
+
       </div>
     </div>
 </div>
@@ -16242,6 +16356,18 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
 
     
 <p> The Defender Default Settings over all Squadrons.</p>
+
+
+</div>
+
+</div>   
+<div>   
+        <div class="w3-card-2 w3-padding-small w3-margin-top">
+
+    #number
+<a id="#(AI_A2G_DISPATCHER).DefenderPatrolIndex" ><strong>AI_A2G_DISPATCHER.DefenderPatrolIndex</strong></a>
+    
+
 
 </div>
 
@@ -16268,6 +16394,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
     
 <p> The Defender Squadrons.</p>
 
+
 </div>
 
 </div>   
@@ -16281,6 +16408,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
 
     
 <p> The Defenders Tasks.</p>
+
 
 </div>
 
@@ -16457,6 +16585,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>The key that is should be cleared.</p>
 
+
           </div>
         </div>
 </div>
@@ -16582,6 +16711,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
         <div class="w3-row w3-margin-left w3-border-bottom w3-border-l2">
@@ -16638,6 +16768,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
         <div class="w3-row w3-margin-left w3-border-bottom w3-border-l2">
@@ -16680,6 +16811,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>The aircraft unit the player entered.</p>
+
 
           </div>
         </div>
@@ -16727,6 +16859,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
 </div>
@@ -16772,6 +16905,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>The initiating object of the event.</p>
+
 
           </div>
         </div>
@@ -16819,6 +16953,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
 </div>
@@ -16853,6 +16988,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -16949,6 +17085,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -16983,6 +17120,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -17019,6 +17157,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -17049,6 +17188,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>The ClassID of the class instance.</p>
 
+
       </div>
     </div>
 </div>
@@ -17078,6 +17218,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
       <div class="w3-half">
         
 <p>The ClassName of the class instance.</p>
+
 
       </div>
     </div>
@@ -17112,6 +17253,7 @@ multiplied by the Overhead and rounded up to the smallest integer. </p>
         
 <p>The ClassName + ClassID of the class instance.</p>
 
+
       </div>
     </div>
 </div>
@@ -17145,6 +17287,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
       <div class="w3-half">
         
 <p>The <a href="Core.Event.html">Core.Event</a> processing Priority.</p>
+
 
       </div>
     </div>
@@ -17268,6 +17411,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
         
 <p>The Value retrieved or nil if the Key was not found and thus the Value could not be retrieved.</p>
 
+
       </div>
     </div>
 </div>
@@ -17360,6 +17504,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -17415,6 +17560,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
       <div class="w3-half">
         
 <p>Child</p>
+
 
       </div>
     </div>
@@ -17580,6 +17726,7 @@ initiator : The unit that triggered the event. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -17615,6 +17762,7 @@ initiator : The unit that triggered the event. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -17654,6 +17802,7 @@ place: The airbase that was captured, can be a FARP or Airbase. When calling pla
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -17690,6 +17839,7 @@ initiator : The unit that was spawned </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -17728,6 +17878,7 @@ initiator : The unit that has crashed </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -17764,6 +17915,7 @@ initiator : The unit that is dead. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -17806,6 +17958,7 @@ initiator : The unit that is dead. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -17841,6 +17994,7 @@ initiator : The unit that is dead. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -17879,6 +18033,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -17916,6 +18071,7 @@ initiator : The unit that is stopping its engines. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -17952,6 +18108,7 @@ initiator : The unit that is starting its engines. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -17992,6 +18149,7 @@ target: The Object that was hit. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18028,6 +18186,7 @@ initiator : The unit that had the failure </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18073,6 +18232,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18110,6 +18270,7 @@ place: Object that the unit landed on. Can be an Airbase Object, FARP, or Ships 
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18155,6 +18316,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18190,6 +18352,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18228,6 +18391,7 @@ MarkID: ID of the mark. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18264,6 +18428,7 @@ MarkID: ID of the mark. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18302,6 +18467,7 @@ MarkID: ID of the mark. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18336,6 +18502,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18369,6 +18536,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18406,6 +18574,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18445,6 +18614,7 @@ initiator : The unit that the pilot has died in. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18482,6 +18652,7 @@ initiator : The unit that is being taken control of. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18521,6 +18692,7 @@ initiator : The unit that is being taken control of. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18557,6 +18729,7 @@ initiator : The unit that the player left. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18595,6 +18768,7 @@ initiator : The unit that is receiving fuel. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18631,6 +18805,7 @@ initiator : The unit that was receiving fuel. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18669,6 +18844,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18706,6 +18882,7 @@ initiator : The unit that was doing the shooting. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18746,6 +18923,7 @@ target: The unit that is being targeted.</p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18782,6 +18960,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18821,6 +19000,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -18856,6 +19036,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18897,6 +19078,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -18970,6 +19152,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
       <div class="w3-half">
         
 <p>The Schedule ID of the planned schedule.</p>
+
 
       </div>
     </div>
@@ -19083,6 +19266,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
         
 <p>The Schedule ID of the planned schedule.</p>
 
+
       </div>
     </div>
 </div>
@@ -19115,6 +19299,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
           <div class="w3-half">
               
 <p>(Optional) Scheduler ID to be stopped. If nil, all pending schedules are stopped.</p>
+
 
           </div>
         </div>
@@ -19163,6 +19348,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -19233,6 +19419,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
         
 <p>The Value set. </p>
 
+
       </div>
     </div>
 </div>
@@ -19267,6 +19454,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -19303,6 +19491,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -19338,6 +19527,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -19371,6 +19561,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>true = trace all methods in MOOSE.</p>
 
+
           </div>
         </div>
 </div>
@@ -19403,6 +19594,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
           <div class="w3-half">
               
 <p>Class name.</p>
+
 
           </div>
         </div>
@@ -19449,6 +19641,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
           <div class="w3-half">
               
 <p>Method.</p>
+
 
           </div>
         </div>
@@ -19504,7 +19697,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
 </div>
       <h2><strong>Usage:</strong></h2>
     <pre class="example"><code>-- Switch the tracing Off
-BASE:TraceOff()</code></pre>
+BASE:TraceOff()</code></pre>
 
 </div>
 
@@ -19527,7 +19720,7 @@ BASE:TraceOff()</code></pre>
 </div>
       <h2><strong>Usage:</strong></h2>
     <pre class="example"><code>-- Switch the tracing On
-BASE:TraceOn()</code></pre>
+BASE:TraceOn()</code></pre>
 
 </div>
 
@@ -19575,7 +19768,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
 
   -- Switch the tracing Off
   BASE:TraceOnOff( false )
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -19654,6 +19847,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
         <div class="w3-row w3-margin-left w3-border-bottom w3-border-l2">
@@ -19705,6 +19899,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -19935,6 +20130,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
     
 <p>The name of the squadron.</p>
 
+
 </div>
 
 </div>   
@@ -20004,6 +20200,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
 <a id="#(AI_A2G_DISPATCHER.Squadron).Overhead" ><strong>AI_A2G_DISPATCHER.Squadron.Overhead</strong></a>
     
 <p>The overhead for the squadron.</p>
+
 
 </div>
 

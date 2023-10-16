@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-97385487-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-97385487-1');</script>
+<head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
@@ -3872,6 +3872,7 @@ normandy:Start()
             <td class="name w3-half w3-container" style="word-wrap: break-word"><p><a href="##(ARTY).ClassNameAndID">ARTY.ClassNameAndID</a></p></td>
             <td class="summary w3-half w3-container" style="word-wrap: break-word">
 <p>The name of the class concatenated with the ID number of the class.</p>
+
 </td>
           </tr>
           <tr class="w3-border">
@@ -4407,6 +4408,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
             <td class="name w3-half w3-container" style="word-wrap: break-word"><p><a href="##(ARTY.Target).attackgroup">ARTY.Target.attackgroup</a></p></td>
             <td class="summary w3-half w3-container" style="word-wrap: break-word">
 <p>If true, use task attack group rather than fire at point for engagement.</p>
+
 </td>
           </tr>
           <tr class="w3-border">
@@ -4516,6 +4518,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
             <td class="name w3-half w3-container" style="word-wrap: break-word"><p><a href="##(ARTY.WeaponType).SmokeShells">ARTY.WeaponType.SmokeShells</a></p></td>
             <td class="summary w3-half w3-container" style="word-wrap: break-word">
 <p>Smoke shells (simulated).</p>
+
 </td>
           </tr>
           <tr class="w3-border">
@@ -4644,6 +4647,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
 
     
 <p> Respawn group.</p>
+
 
 </div>
 
@@ -5471,6 +5475,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -5649,7 +5654,7 @@ When Moose is loaded statically, (as one file), tracing is switched off by defau
       <h2><strong>Usage:</strong></h2>
     <pre class="example"><code>paladin=ARTY:New(GROUP:FindByName("Blue Paladin"))
 paladin:AssignTargetCoord(GROUP:FindByName("Red Targets 1"):GetCoordinate(), 10, 300, 10, 1, "08:02:00", ARTY.WeaponType.Auto, "Target 1")
-paladin:Start()</code></pre>
+paladin:Start()</code></pre>
 
 </div>
 
@@ -5770,6 +5775,7 @@ paladin:Start()</code></pre>
       <div class="w3-half">
         
 <p>Name of the move. Can be used for further reference, e.g. deleting the move from the list.</p>
+
 
       </div>
     </div>
@@ -5927,7 +5933,7 @@ paladin:Start()</code></pre>
       <h2><strong>Usage:</strong></h2>
     <pre class="example"><code>paladin=ARTY:New(GROUP:FindByName("Blue Paladin"))
 paladin:AssignTargetCoord(GROUP:FindByName("Red Targets 1"):GetCoordinate(), 10, 300, 10, 1, "08:02:00", ARTY.WeaponType.Auto, "Target 1")
-paladin:Start()</code></pre>
+paladin:Start()</code></pre>
 
 </div>
 
@@ -5962,6 +5968,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>Array holding the target data.</p>
+
 
           </div>
         </div>
@@ -6020,6 +6027,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>Name of the unit that died.</p>
+
 
           </div>
         </div>
@@ -6092,6 +6100,7 @@ paladin:Start()</code></pre>
           
 <p>Number of missiles the group has left.</p>
 
+
         </div>
     </div>
 </div>
@@ -6127,6 +6136,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>Array holding the relocation move data.</p>
+
 
           </div>
         </div>
@@ -6184,6 +6194,7 @@ paladin:Start()</code></pre>
         
 <p>ARTY object or nil if group does not exist or is not a ground or naval group.</p>
 
+
       </div>
     </div>
 </div>
@@ -6240,6 +6251,7 @@ paladin:Start()</code></pre>
         
 <p>ARTY object or nil if group does not exist or is not a ground or naval group.</p>
 
+
       </div>
     </div>
 </div>
@@ -6276,6 +6288,7 @@ paladin:Start()</code></pre>
               
 <p>Array holding the relocation move data.</p>
 
+
           </div>
         </div>
 </div>
@@ -6311,6 +6324,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>Array holding the target data.</p>
+
 
           </div>
         </div>
@@ -6383,6 +6397,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -6469,6 +6484,7 @@ paladin:Start()</code></pre>
               
 <p>Array holding the target info.</p>
 
+
           </div>
         </div>
 </div>
@@ -6553,6 +6569,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>Name of the dead unit.</p>
+
 
           </div>
         </div>
@@ -6639,6 +6656,7 @@ paladin:Start()</code></pre>
               
 <p>Array holding the move info.</p>
 
+
           </div>
         </div>
 </div>
@@ -6723,6 +6741,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>Array holding the move info.</p>
+
 
           </div>
         </div>
@@ -6809,6 +6828,7 @@ paladin:Start()</code></pre>
               
 <p>Array holding the target info.</p>
 
+
           </div>
         </div>
 </div>
@@ -6894,6 +6914,7 @@ paladin:Start()</code></pre>
               
 <p>Array holding the target info.</p>
 
+
           </div>
         </div>
 </div>
@@ -6965,6 +6986,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -7038,6 +7060,7 @@ paladin:Start()</code></pre>
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -7109,6 +7132,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -7182,6 +7206,7 @@ paladin:Start()</code></pre>
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -7253,6 +7278,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -7326,6 +7352,7 @@ paladin:Start()</code></pre>
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -7397,6 +7424,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -7470,6 +7498,7 @@ paladin:Start()</code></pre>
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -7541,6 +7570,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -7614,6 +7644,7 @@ paladin:Start()</code></pre>
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -7686,6 +7717,7 @@ paladin:Start()</code></pre>
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -7757,6 +7789,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -7856,6 +7889,7 @@ paladin:Start()</code></pre>
               
 <p>Array holding the target data.</p>
 
+
           </div>
         </div>
 </div>
@@ -7908,6 +7942,7 @@ paladin:Start()</code></pre>
               
 <p>Name of the target.</p>
 
+
           </div>
         </div>
 </div>
@@ -7943,6 +7978,7 @@ paladin:Start()</code></pre>
           <div class="w3-half">
               
 <p>Name of the target.</p>
+
 
           </div>
         </div>
@@ -8009,6 +8045,7 @@ paladin:Start()</code></pre>
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8067,6 +8104,7 @@ paladin:Start()</code></pre>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -8127,6 +8165,7 @@ paladin:Start()</code></pre>
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8159,6 +8198,7 @@ paladin:Start()</code></pre>
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8190,6 +8230,7 @@ paladin:Start()</code></pre>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -8251,6 +8292,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8310,6 +8352,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8366,6 +8409,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8394,6 +8438,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -8441,6 +8486,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8487,6 +8533,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8529,6 +8576,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -8573,6 +8621,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8615,6 +8664,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -8662,6 +8712,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8705,6 +8756,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8747,6 +8799,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -8794,6 +8847,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8826,6 +8880,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8857,6 +8912,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -8901,6 +8957,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8944,6 +9001,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -8986,6 +9044,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -9046,6 +9105,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -9088,6 +9148,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -9134,6 +9195,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -9201,6 +9263,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -9247,6 +9310,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -9290,6 +9354,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -9332,6 +9397,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -9378,6 +9444,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -9475,6 +9542,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Target data.</p>
 
+
           </div>
         </div>
 </div>
@@ -9516,6 +9584,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Properties of the requested artillery type. Returns nil if no matching DB entry could be found.</p>
 
+
       </div>
     </div>
 </div>
@@ -9545,6 +9614,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Move which is due.</p>
+
 
       </div>
     </div>
@@ -9619,6 +9689,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Unique name, which is not already given for another target.</p>
 
+
       </div>
     </div>
 </div>
@@ -9648,6 +9719,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Target which is due to be attacked now or nil if no target could be found.</p>
+
 
       </div>
     </div>
@@ -9692,6 +9764,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>@boolean True if any target requests a weapon type that is empty.</p>
 
+
       </div>
     </div>
 </div>
@@ -9724,6 +9797,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>True if rearming is complete, false otherwise.</p>
+
 
       </div>
     </div>
@@ -9796,6 +9870,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Target which is due to be attacked now.</p>
 
+
       </div>
     </div>
 </div>
@@ -9842,6 +9917,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Amount of shells, rockets or missiles available of the weapon type selected for the target.</p>
+
 
       </div>
     </div>
@@ -9890,6 +9966,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>True if the group can carry this weapon type, false otherwise.</p>
 
+
       </div>
     </div>
 </div>
@@ -9922,6 +9999,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>String of clock time. E.g., "06:12:35".</p>
+
 
           </div>
         </div>
@@ -9995,6 +10073,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -10067,6 +10146,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Type of weapon to use.</p>
 
+
           </div>
         </div>
 </div>
@@ -10125,6 +10205,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Target of the weapon.</p>
+
 
           </div>
         </div>
@@ -10185,6 +10266,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Target of the weapon.</p>
 
+
           </div>
         </div>
 </div>
@@ -10241,6 +10323,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>angle Angle from a to b in degrees.</p>
+
 
       </div>
     </div>
@@ -10302,6 +10385,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           
 <p>ID of the marked relocation move or nil</p>
 
+
         </div>
     </div>
 </div>
@@ -10346,6 +10430,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Arrayindex of move.</p>
 
+
       </div>
     </div>
 </div>
@@ -10389,6 +10474,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Arrayindex of target.</p>
+
 
       </div>
     </div>
@@ -10455,6 +10541,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           
 <p>Longitude in decimal degree format.</p>
 
+
         </div>
     </div>
 </div>
@@ -10498,6 +10585,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Name of relocation move.</p>
+
 
       </div>
     </div>
@@ -10619,6 +10707,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Name of target engagement.</p>
 
+
       </div>
     </div>
 </div>
@@ -10662,6 +10751,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>If true, authentification successful.</p>
+
 
       </div>
     </div>
@@ -10707,6 +10797,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Table with assignment parameters, e.g. number of shots, radius, time etc.</p>
 
+
       </div>
     </div>
 </div>
@@ -10750,6 +10841,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Missile category name.</p>
+
 
       </div>
     </div>
@@ -10823,6 +10915,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>If true, use (mainly) roads.</p>
 
+
           </div>
         </div>
 </div>
@@ -10867,6 +10960,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Info string.</p>
 
+
       </div>
     </div>
 </div>
@@ -10899,6 +10993,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Coordinate of the impact point (center of the blast).</p>
+
 
           </div>
         </div>
@@ -10936,6 +11031,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Event data.</p>
 
+
           </div>
         </div>
 </div>
@@ -10968,6 +11064,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Event data.</p>
+
 
           </div>
         </div>
@@ -11041,6 +11138,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>True if it is the final waypoint.</p>
 
+
           </div>
         </div>
 </div>
@@ -11107,6 +11205,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Time in format Hours:minutes:seconds.</p>
 
+
       </div>
     </div>
 </div>
@@ -11142,6 +11241,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Array to sort. Should have elemnt .time.</p>
+
 
           </div>
         </div>
@@ -11197,6 +11297,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>(Optional) If true, send message to coalition. Default false.</p>
+
 
           </div>
         </div>
@@ -11279,6 +11380,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           
 <p>True if target should be removed since ARTY group is immobile and not cargo.</p>
 
+
         </div>
     </div>
 </div>
@@ -11322,6 +11424,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>name, prio, radius, nshells, engaged, maxengage, time, weapontype</p>
+
 
       </div>
     </div>
@@ -11393,6 +11496,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Random coordinate in a certain distance from center coordinate.</p>
 
+
       </div>
     </div>
 </div>
@@ -11437,6 +11541,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>tnumber of weapon type.</p>
 
+
       </div>
     </div>
 </div>
@@ -11472,6 +11577,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Delay in seconds.</p>
+
 
           </div>
         </div>
@@ -11522,6 +11628,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Array holding the target data.</p>
 
+
           </div>
         </div>
 </div>
@@ -11557,6 +11664,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Delay in seconds.</p>
+
 
           </div>
         </div>
@@ -11607,6 +11715,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Name of the unit that died.</p>
 
+
           </div>
         </div>
 </div>
@@ -11655,6 +11764,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Array holding the relocation move data.</p>
+
 
           </div>
         </div>
@@ -11705,6 +11815,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Array holding the relocation move data.</p>
 
+
           </div>
         </div>
 </div>
@@ -11753,6 +11864,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Array holding the target data.</p>
+
 
           </div>
         </div>
@@ -11803,6 +11915,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Array holding the target data.</p>
 
+
           </div>
         </div>
 </div>
@@ -11836,6 +11949,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Delay in seconds.</p>
 
+
           </div>
         </div>
 </div>
@@ -11868,6 +11982,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>before start in seconds.</p>
+
 
           </div>
         </div>
@@ -11905,6 +12020,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>in seconds.</p>
 
+
           </div>
         </div>
 </div>
@@ -11940,6 +12056,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Delay in seconds.</p>
+
 
           </div>
         </div>
@@ -12000,6 +12117,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Split text.</p>
+
 
       </div>
     </div>
@@ -12110,6 +12228,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -12197,6 +12316,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Array holding the target info.</p>
+
 
           </div>
         </div>
@@ -12286,6 +12406,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Name of the unit that died.</p>
 
+
           </div>
         </div>
 </div>
@@ -12374,6 +12495,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Table containing the move parameters.</p>
 
+
           </div>
         </div>
 </div>
@@ -12459,6 +12581,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Array holding the move parameters.</p>
 
+
           </div>
         </div>
 </div>
@@ -12543,6 +12666,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Array holding the target parameters.</p>
+
 
           </div>
         </div>
@@ -12632,6 +12756,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Array holding the target info.</p>
 
+
           </div>
         </div>
 </div>
@@ -12706,6 +12831,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -12782,6 +12908,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -12856,6 +12983,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -12932,6 +13060,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -13007,6 +13136,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -13081,6 +13211,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -13168,6 +13299,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>If true, proceed to onafterLoaded.</p>
 
+
       </div>
     </div>
 </div>
@@ -13242,6 +13374,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>To state.</p>
+
 
           </div>
         </div>
@@ -13328,6 +13461,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>If true, proceed to onafterLoaded.</p>
+
 
       </div>
     </div>
@@ -13454,6 +13588,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>If true, proceed to onafterMove.</p>
 
+
       </div>
     </div>
 </div>
@@ -13553,6 +13688,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>If true, proceed to onafterOpenfire.</p>
 
+
       </div>
     </div>
 </div>
@@ -13639,6 +13775,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>If true, proceed to onafterRearm.</p>
 
+
       </div>
     </div>
 </div>
@@ -13714,6 +13851,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -13745,6 +13883,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
 
     
 <p> Respawn group.</p>
+
 
 </div>
 
@@ -14685,6 +14824,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The To State string.</p>
 
+
           </div>
         </div>
 </div>
@@ -14768,6 +14908,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Return false to cancel Transition.</p>
 
+
       </div>
     </div>
 </div>
@@ -14839,6 +14980,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>The To State string.</p>
+
 
           </div>
         </div>
@@ -14922,6 +15064,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Return false to cancel Transition.</p>
+
 
       </div>
     </div>
@@ -15017,6 +15160,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The delay in seconds.  </p>
 
+
           </div>
         </div>
 </div>
@@ -15108,6 +15252,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
 
     
 <p> Respawn group.</p>
+
 
 </div>
 
@@ -15922,6 +16067,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The FSM state.</p>
 
+
           </div>
         </div>
 </div>
@@ -16005,6 +16151,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>The SubFSM.</p>
 
+
       </div>
     </div>
 </div>
@@ -16074,6 +16221,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -16171,6 +16319,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>self</p>
 
+
       </div>
     </div>
 </div>
@@ -16233,6 +16382,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The To state.</p>
 
+
           </div>
         </div>
 </div>
@@ -16263,6 +16413,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Current FSM state.</p>
 
+
       </div>
     </div>
 </div>
@@ -16292,6 +16443,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>End states.</p>
+
 
       </div>
     </div>
@@ -16363,6 +16515,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Sub processes.</p>
 
+
       </div>
     </div>
 </div>
@@ -16392,6 +16545,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Scores.</p>
+
 
       </div>
     </div>
@@ -16423,6 +16577,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>A string containing the start state.</p>
 
+
       </div>
     </div>
 </div>
@@ -16452,6 +16607,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Current FSM state.</p>
+
 
       </div>
     </div>
@@ -16483,6 +16639,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Sub processes.</p>
 
+
       </div>
     </div>
 </div>
@@ -16512,6 +16669,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Transitions.</p>
+
 
       </div>
     </div>
@@ -16557,6 +16715,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>If true, FSM is in this state.</p>
 
+
       </div>
     </div>
 </div>
@@ -16589,6 +16748,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Table of call backs.</p>
+
 
           </div>
         </div>
@@ -16703,6 +16863,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>A string defining the start state.</p>
 
+
           </div>
         </div>
 </div>
@@ -16748,6 +16909,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Event table.</p>
+
 
           </div>
         </div>
@@ -16831,6 +16993,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Value.</p>
 
+
       </div>
     </div>
 </div>
@@ -16875,6 +17038,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Function.</p>
 
+
       </div>
     </div>
 </div>
@@ -16918,6 +17082,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>Function.</p>
+
 
       </div>
     </div>
@@ -16964,6 +17129,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Event structure.</p>
+
 
           </div>
         </div>
@@ -17022,6 +17188,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>Subs.</p>
 
+
       </div>
     </div>
 </div>
@@ -17066,6 +17233,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>Arguments.</p>
+
 
           </div>
         </div>
@@ -17118,6 +17286,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         <div class="w3-half">
           
 <p>Event name.</p>
+
 
         </div>
     </div>
@@ -17178,6 +17347,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>Name.</p>
 
+
           </div>
         </div>
 </div>
@@ -17230,6 +17400,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           
 <p>To state.</p>
 
+
         </div>
     </div>
 </div>
@@ -17273,6 +17444,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>If true, FSM cannot do the event.</p>
+
 
       </div>
     </div>
@@ -17328,6 +17500,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>If true, FSM is in this state.  </p>
 
+
       </div>
     </div>
 </div>
@@ -17359,6 +17532,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
 
     
 <p> Respawn group.</p>
+
 
 </div>
 
@@ -18184,6 +18358,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The key that is should be cleared.</p>
 
+
           </div>
         </div>
 </div>
@@ -18309,6 +18484,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
         <div class="w3-row w3-margin-left w3-border-bottom w3-border-l2">
@@ -18365,6 +18541,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
         <div class="w3-row w3-margin-left w3-border-bottom w3-border-l2">
@@ -18407,6 +18584,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>The aircraft unit the player entered.</p>
+
 
           </div>
         </div>
@@ -18454,6 +18632,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
 </div>
@@ -18499,6 +18678,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>The initiating object of the event.</p>
+
 
           </div>
         </div>
@@ -18546,6 +18726,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>The initiating object of the event.</p>
 
+
           </div>
         </div>
 </div>
@@ -18580,6 +18761,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -18676,6 +18858,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -18710,6 +18893,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -18746,6 +18930,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -18776,6 +18961,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>The ClassID of the class instance.</p>
 
+
       </div>
     </div>
 </div>
@@ -18805,6 +18991,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
       <div class="w3-half">
         
 <p>The ClassName of the class instance.</p>
+
 
       </div>
     </div>
@@ -18839,6 +19026,7 @@ The illumination bomb will burn for 300 seconds (5 minutes). Assuming a descent 
         
 <p>The ClassName + ClassID of the class instance.</p>
 
+
       </div>
     </div>
 </div>
@@ -18872,6 +19060,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
       <div class="w3-half">
         
 <p>The <a href="Core.Event.html">Core.Event</a> processing Priority.</p>
+
 
       </div>
     </div>
@@ -18995,6 +19184,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
         
 <p>The Value retrieved or nil if the Key was not found and thus the Value could not be retrieved.</p>
 
+
       </div>
     </div>
 </div>
@@ -19087,6 +19277,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -19142,6 +19333,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
       <div class="w3-half">
         
 <p>Child</p>
+
 
       </div>
     </div>
@@ -19307,6 +19499,7 @@ initiator : The unit that triggered the event. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19342,6 +19535,7 @@ initiator : The unit that triggered the event. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19381,6 +19575,7 @@ place: The airbase that was captured, can be a FARP or Airbase. When calling pla
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19417,6 +19612,7 @@ initiator : The unit that was spawned </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19455,6 +19651,7 @@ initiator : The unit that has crashed </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19491,6 +19688,7 @@ initiator : The unit that is dead. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19533,6 +19731,7 @@ initiator : The unit that is dead. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19568,6 +19767,7 @@ initiator : The unit that is dead. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19606,6 +19806,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19643,6 +19844,7 @@ initiator : The unit that is stopping its engines. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19679,6 +19881,7 @@ initiator : The unit that is starting its engines. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19719,6 +19922,7 @@ target: The Object that was hit. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19755,6 +19959,7 @@ initiator : The unit that had the failure </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19800,6 +20005,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19837,6 +20043,7 @@ place: Object that the unit landed on. Can be an Airbase Object, FARP, or Ships 
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19882,6 +20089,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19917,6 +20125,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -19955,6 +20164,7 @@ MarkID: ID of the mark. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -19991,6 +20201,7 @@ MarkID: ID of the mark. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20029,6 +20240,7 @@ MarkID: ID of the mark. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20063,6 +20275,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20096,6 +20309,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20133,6 +20347,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20172,6 +20387,7 @@ initiator : The unit that the pilot has died in. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20209,6 +20425,7 @@ initiator : The unit that is being taken control of. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20248,6 +20465,7 @@ initiator : The unit that is being taken control of. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20284,6 +20502,7 @@ initiator : The unit that the player left. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20322,6 +20541,7 @@ initiator : The unit that is receiving fuel. </p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20358,6 +20578,7 @@ initiator : The unit that was receiving fuel. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20396,6 +20617,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20433,6 +20655,7 @@ initiator : The unit that was doing the shooting. </p>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20473,6 +20696,7 @@ target: The unit that is being targeted.</p>
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20509,6 +20733,7 @@ Have a look at the class <a href="Core.Event.html##(EVENT)">Core.Event#EVENT</a>
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20548,6 +20773,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
               
 <p>The EventData structure.</p>
 
+
           </div>
         </div>
 </div>
@@ -20583,6 +20809,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20624,6 +20851,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
           <div class="w3-half">
               
 <p>The EventData structure.</p>
+
 
           </div>
         </div>
@@ -20697,6 +20925,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
       <div class="w3-half">
         
 <p>The Schedule ID of the planned schedule.</p>
+
 
       </div>
     </div>
@@ -20810,6 +21039,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
         
 <p>The Schedule ID of the planned schedule.</p>
 
+
       </div>
     </div>
 </div>
@@ -20842,6 +21072,7 @@ place: Object from where the AI took-off from. Can be an Airbase Object, FARP, o
           <div class="w3-half">
               
 <p>(Optional) Scheduler ID to be stopped. If nil, all pending schedules are stopped.</p>
+
 
           </div>
         </div>
@@ -20890,6 +21121,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
       <div class="w3-half">
         
 <p>self</p>
+
 
       </div>
     </div>
@@ -20960,6 +21192,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
         
 <p>The Value set. </p>
 
+
       </div>
     </div>
 </div>
@@ -20994,6 +21227,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -21030,6 +21264,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -21065,6 +21300,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
 </div>
@@ -21098,6 +21334,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
               
 <p>true = trace all methods in MOOSE.</p>
 
+
           </div>
         </div>
 </div>
@@ -21130,6 +21367,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
           <div class="w3-half">
               
 <p>Class name.</p>
+
 
           </div>
         </div>
@@ -21176,6 +21414,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
           <div class="w3-half">
               
 <p>Method.</p>
+
 
           </div>
         </div>
@@ -21231,7 +21470,7 @@ reflecting the order of the classes subscribed to the Event to be processed.</p>
 </div>
       <h2><strong>Usage:</strong></h2>
     <pre class="example"><code>-- Switch the tracing Off
-BASE:TraceOff()</code></pre>
+BASE:TraceOff()</code></pre>
 
 </div>
 
@@ -21254,7 +21493,7 @@ BASE:TraceOff()</code></pre>
 </div>
       <h2><strong>Usage:</strong></h2>
     <pre class="example"><code>-- Switch the tracing On
-BASE:TraceOn()</code></pre>
+BASE:TraceOn()</code></pre>
 
 </div>
 
@@ -21302,7 +21541,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
 
   -- Switch the tracing Off
   BASE:TraceOnOff( false )
-</code></pre>
+</code></pre>
 
 </div>
 
@@ -21381,6 +21620,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
               
 <p>A #table or any field.</p>
 
+
           </div>
         </div>
         <div class="w3-row w3-margin-left w3-border-bottom w3-border-l2">
@@ -21432,6 +21672,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
           <div class="w3-half">
               
 <p>A #table or any field.</p>
+
 
           </div>
         </div>
@@ -21524,6 +21765,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
 <a id="#(ARTY.Target).attackgroup" ><strong>ARTY.Target.attackgroup</strong></a>
     
 <p>If true, use task attack group rather than fire at point for engagement.</p>
+
 
 </div>
 
@@ -21718,6 +21960,7 @@ When moose is loading dynamically (for moose class development), tracing is swit
 <a id="#(ARTY.WeaponType).SmokeShells" ><strong>ARTY.WeaponType.SmokeShells</strong></a>
     
 <p>Smoke shells (simulated).</p>
+
 
 </div>
 
